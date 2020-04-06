@@ -1,3 +1,15 @@
+## Description
+
+This is my work for sub challenge 3 of the [IDRiD challenge](https://idrid.grand-challenge.org/Localisation/). 
+The purpose of this challenge is to directly compare the methods developed for automatic image localization of Optic Disc and Fovea.
+I used FasterRCNN and RetinaNet to localize the optical disc and fovea from the fundus images.
+
+## Background
+The Optic Disc and fovea are the most important landmarks in the retina. Discarding the OD provides invaluable help as potential confounder relative to bright lesions and fovea localization is important for the accurate grading of DME.
+
+
+<div style="text-align:center"><img src="./figures/od_fovea_detection.png" /></div>
+
 ## Dependencies
 
 We use PyTorch, TorchVision, PIL, and some transformations from [albumentations](https://github.com/albumentations-team/albumentations) library.
